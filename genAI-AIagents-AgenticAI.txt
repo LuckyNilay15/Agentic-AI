@@ -1,0 +1,33 @@
+Gen AI is a type of artificial intelligence that creates new content-such as text, 
+images or audio- based on patterns learned from existing data.
+
+Traditional LLM do not know about the external world and give the output based on the input. It is like a brain.
+If its given the external tools then it can perform the task like what is the cheapest price of the ticket for tomorrow
+or booking the ticket etc etc.
+
+It will search the flight
+decides the cheapest flight
+books the flight.
+
+This is AI Agent it is a program that takes the input, things and take action to achieve the output
+using tools, memory and knowledge base.
+
+When asking for complex tasks, LLM itself will not be able to perform it.
+It can communicate with other agentic AI to perform the task.
+
+For example a 7 day trip to New delhi in may,  the weather should be sunny all day and the price <=1600.
+so Agent1 will search for the flight and Agent2 will search for the hotel and Agent3 will search for etc etc.
+and finally ticket will be booked.
+i.e.
+
+Multi-step reasoning , multi-step planning, works on a complex goal autonomously.
+
+Agentic AI is a system where one or more AI agents work together to achieve a common goal.
+
+Overall,
+Gen AI(LLM only)------------> AI Agent----------------> Agentic AI
+pre-trained           takes input, decides and.      Handles multi-step goals with planning
+knowledge               completes a task                  and coordination.
+
+Agentic AI often uses Generative AI as a core component.
+

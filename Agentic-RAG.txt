@@ -1,0 +1,38 @@
+RAG-> Retrieval Augmented Generation
+let suppose we need to file a claim in a car insurance company.
+Now, for this we need to have a policy pdf which will havew the details of the steps 
+to file the claim.
+So, we provided the pdf and it contains the details of the steps to file the claim.
+Now the rag cannot parse very big chunk of data so, it takes the pdf and do semantic search on it
+and it convert in into the vector database.
+Now, when we ask the rag to file a claim, it will search in the vector database and 
+and we will get the answer about the steps like 
+1. Login to the website
+2. Click on the claim section
+3. Upload the documents
+4. Fill the details
+5. Submit the claim etc etc.
+
+Now, this is the basic idea of RAG.
+
+Agentic RAG vs Traditional RAG
+
+Agentic RAG is a type of RAG that is used to generate responses to user queries.
+Now, agentic RAG is a bit smarter and can perform complex queries. It can access databases multiple times and 
+can perform complex queries to get the answer.
+
+For example why did my invoice go up this month?
+Now, the agentic RAG will access the database multiple times and perform complex queries to get the answer. It will do 
+autonomous reasoning to get the answer like search for the invoice, search for the policy, search for the claims etc etc.
+And it will generate the answer.
+
+For example: Your usage exceeded the limit of 1000 units.
+
+Feature.                    RAG.           Agentic RAG
+1.Retrieves context?        Yes.              Yes
+2.Plans next steps           No               Yes
+3.Multi-turn reasoning?      No               Yes
+4.Can reason autonomously?   only Q&A         Takes steps to complete a task.
+5.Uses tools/APIs?           No               Yes
+
+

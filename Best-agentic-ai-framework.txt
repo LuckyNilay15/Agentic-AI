@@ -1,0 +1,54 @@
+##With code:
+
+1. Agno: Lightweight and super fast.
+
+DSL+Python---> just passing on the configuration.
+
+Model:
+Tools: MCP , reasoning tools etc etc.
+Instruction:
+
+**Use MCP with Agno to enable your agents to interact with 
+external systems through a standardized interface.
+
+2.LangGraph:
+
+Reliable multi-step custom workflows.
+State machinegraph,memory,retries.
+
+3.CrewAI:
+
+Lightweight,Intuitive agent orchestration.
+Multi-agent system with orchestrations.
+Agent roles,task assignment,teamwork
+
+Agents:
+Task:
+verbose:
+
+Each agent has its own:
+role:
+goal:
+backstory:
+tools:*****
+etc etc.
+
+4.Google ADK:
+
+Tight GCP, Multi-agent
+
+5.Open AI ADK
+
+Tight OpenAI integration
+
+_________________________________________________________
+
+No Code:
+
+1.n8n
+
+2.Zapier
+
+3.make
+
+

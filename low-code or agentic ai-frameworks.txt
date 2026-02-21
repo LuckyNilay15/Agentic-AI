@@ -1,0 +1,33 @@
+No code- Zapier, n8n
+Code- crewai,lang-graph
+
+LLM- Large Language Models
+
+AI Agent is a program that takes the input, things and take action to achieve the output
+using tools, memory and knowledge base.
+
+Autonomus but narrow take specific task and does not eveolve around mulitple or evolving tasks.
+
+                          Tools
+                            |             High confidence
+                            |                /
+Learner enquiry email----> LLM----> Response/
+                            |               \
+                            |                \ 
+                            |               Low confidence
+                            |
+                            |
+                            v
+                        Knowledge Base
+                            |
+                            |
+                            v
+                        Memory
+
+Agent combine to do complex tasks---> Agentic AI
+               A3
+       Agent2   |     A4
+    Agent1-----A0------ Agent5
+        A6      |      A7  
+               A8
+
