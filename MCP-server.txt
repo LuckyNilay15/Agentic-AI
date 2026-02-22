@@ -1,0 +1,19 @@
+Building a HR Agent using MCP server.
+
+Goal: To help in employee leave management.
+
+
+                                Employee DB
+                                
+MCP Client -------------------->MCP Server
+(chatbot)                              
+  config                          HR Agent
+   {
+     mcpserver: leavemanger..
+   }
+
+Component:
+
+1. Tools
+2. Resources
+3. Prompts
